@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main-parent{
+    width: 100%;
+    height: 100vh;
+    background-image: url(http://www.wallpapers4u.org/wp-content/uploads/forms_shapes_light_color_35091_1920x1080.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ .form-wrap{
+    width: 450px;
+    background: rgb(173, 171, 171);
+    border-radius: 10px;
+    padding: 35px 40px;
+    backdrop-filter: blur(10px);
+}
+.main-parent .form-wrap h1{
+    font-variant: small-caps;
+    font-size: 45px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+.main-parent .form-wrap h1 span{
+    color: #f57224;
+}
+.main-parent .form-wrap .single-input input{
+    width: 100%;
+    padding: 14px 18px;
+    border: 1px solid rgba(0, 0, 0, 0.352);
+    outline: none;
+    background-color: transparen;
+    margin-bottom: 10px;
+    font-size: 15px;
+    font-family:'Roboto', sans-serif;
+}
+.Sumbit-button{
+    text-align: center;
+}
+.Sumbit-button button{
+    padding: 13px 30px;
+    background-color: #f57224;
+    outline: none;
+    border: none;
+    color: #fff;
+    font-family: 'Roboto',sans-serif;
+    font-size: 16px;
+    cursor: pointer;
+}
+.account-have{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+    margin-top: 10px;
+}
+.account-have a{
+    color: rgb(34,34,34);
+    text-decoration: none;
+    font-family: 'Roboto',sans-serif;
+}
